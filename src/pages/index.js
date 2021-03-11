@@ -1,5 +1,6 @@
 import Head from 'next/head'
 
+import EditorPicks from '../components/editorPicks'
 import styles from '../styles/pages/index.module.css'
 
 export default function Home() {
@@ -9,6 +10,10 @@ export default function Home() {
         <title>SportNews</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
+      <main className={styles.main}>
+        <EditorPicks />
+      </main>
     </div>
   )
 }

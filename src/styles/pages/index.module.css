@@ -18,3 +18,8 @@
 .title {
   text-align: center;
 }
+
+.main {
+  margin: 5rem auto;
+  max-width: 1100px;
+}

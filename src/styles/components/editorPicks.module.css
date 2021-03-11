@@ -1,0 +1,30 @@
+.container {
+  background-color: #fff;
+  width: 28%;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 1.4rem;
+  padding: 1rem;
+}
+
+.pick {
+  padding: 1rem 0;
+  border-top: 1px solid #f1f1f1;
+  width: 100%;
+  padding: 1rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+}
+.pick:first-of-type{
+  border-top: none;
+}
+.pick:hover {
+  background-color: #f1f1f1;
+  transition: 0.7s ease;
+
+  cursor: pointer;
+}
