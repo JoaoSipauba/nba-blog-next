@@ -1,0 +1,48 @@
+.caroussel {
+  width: 70%;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.gallery {
+  position: relative;
+  width: 100%;
+}
+.gallery img{
+  width: 100%;
+}
+.texts{
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  padding: 2rem;
+}
+.texts h2{
+  font-size: 1.1rem;
+}
+
+.options {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.button {
+  width: 13px;
+  height: 13px;
+  margin: 0.2rem;
+  background-color: #dfdade;
+
+  cursor: pointer;
+}
+
+.buttonActive {
+  width: 13px;
+  height: 13px;
+  margin: 0.2rem;
+  background-color: royalblue;
+
+  cursor: pointer;
+}

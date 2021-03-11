@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
 import EditorPicks from '../components/editorPicks'
+import Slider from '../components/slider'
 import styles from '../styles/pages/index.module.css'
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+        <Slider />
         <EditorPicks />
       </main>
     </div>
